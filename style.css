@@ -4,6 +4,8 @@ body {
     font-family: Roboto, sans-serif;
     color: #F9FaF8;
 }
+
+/* Header styling*/
 a, a:visited, a:hover  {
     text-decoration: none;
 }
@@ -30,6 +32,8 @@ header {
     display: flex;
     gap: 16px;
 }
+
+/* Hero text section */
 .hero-container {
     padding: 16px 128px;
     background-color: #1F2937;
@@ -61,6 +65,8 @@ header {
     padding: 8px 16px;
     margin: 16px 0;
 }
+
+/* Infocards section */
 .infocards-container {
     color: #1F2937;
     display: flex;
@@ -92,10 +98,29 @@ header {
     border: 4px #3882F6 solid;
     border-radius: 8px;
 }
+
+/* Testimonial section */
 .testimonial {
     background-color: #E5E7EB;
     color: #1F2937;
+    font-size: 24px;
+    padding: 32px 256px;
+    display: flex;
+    flex-direction: column;
 }
+.testimonial > p {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    font-style: italic;
+}
+.testimonial > span {
+    font-weight: 700;
+    padding-left: 128px;
+}
+
+/* Signup section */
+
+
 footer {
     padding: 16px;
     background-color: #1F2937;
