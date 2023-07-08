@@ -1,11 +1,9 @@
 body {
-    padding: 0;
     margin: 0;
+    padding: 0;
     font-family: Roboto, sans-serif;
     color: #F9FaF8;
 }
-
-/* Header styling*/
 a, a:visited, a:hover  {
     text-decoration: none;
 }
@@ -13,18 +11,23 @@ a {
     color: #E5E7EB;
 }
 a:hover {
-    color: white;
+    color: #F9FaF8;
 }
+
+/* Header section */
 header {
+    margin: 0;
     padding: 16px 7%;
-    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #1F2937;
+    
 }
-.header-logo {
+header h2 {
+    margin: 0;
+    padding: 0;
     font-size: 24px;
-    font-weight: 700;
     font-style: italic;
     color: #3882F6;
 }
@@ -35,40 +38,41 @@ header {
 
 /* Hero text section */
 .hero-container {
+    margin: 0;
     padding: 64px 10%;
-    background-color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 7%;
+    background-color: #1F2937;
 }
 .hero-container > img {
     height: 256px;
-    
 }
 .hero-text {
-    max-width: 50%;
+    margin-bottom: 16px;
+    flex: 0 1 50%;
 }
 .hero-text h1 {
-    font-size: 48px;
     margin: 16px 0;
     padding: 0;
+    font-size: 48px;
+    color: #F9FaF8;
 }
-.hero-text > div {
+.hero-text div {
     color: #E5E7EB;
 }
 .hero-text > button {
-    font-family: Roboto, sans-serif;
+    margin: 16px 0;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
     font-size: 16px;
     font-weight: 700;
     background-color: #3882F6;
-    color: white;
-    border: none;
-    border-radius: 8px;
+    color: #F9FaF8;
     cursor: pointer;
-    padding: 8px 16px;
-    margin: 16px 0;
 }
 
 /* Infocards section */
