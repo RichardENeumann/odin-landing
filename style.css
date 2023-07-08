@@ -1,6 +1,8 @@
-body {
+* {
     margin: 0;
     padding: 0;
+}
+body {
     font-family: Roboto, sans-serif;
     color: #F9FaF8;
 }
@@ -16,17 +18,13 @@ a:hover {
 
 /* Header section */
 header {
-    margin: 0;
     padding: 16px 7%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    
 }
 header h2 {
-    margin: 0;
-    padding: 0;
     font-size: 24px;
     font-style: italic;
     color: #3882F6;
@@ -38,7 +36,6 @@ header h2 {
 
 /* Hero text section */
 .hero-container {
-    margin: 0;
     padding: 64px 10%;
     display: flex;
     justify-content: center;
@@ -56,7 +53,6 @@ header h2 {
 }
 .hero-text h1 {
     margin: 16px 0;
-    padding: 0;
     font-size: 48px;
     color: #F9FaF8;
 }
@@ -77,26 +73,26 @@ header h2 {
 
 /* Infocards section */
 .infocards-container {
-    color: #1F2937;
+    padding: 64px 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 64px 10%;
+    color: #1F2937;
 }
 .infocards-container > h2 {
     font-size: 24px;
     font-weight: 700;
 }
 .infocards-group {
+    margin: 16px 0;
     display: flex;
-    gap: 48px;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 16px 0;
+    gap: 48px;
 }
 .infocard {
     text-align: center;
-    max-width: 180px;
+    flex: 0 0 172px;
 }
 .infocard a {
     color: #1F2937;
@@ -104,64 +100,66 @@ header h2 {
 .infocard img {
     height: 128px;
     width: 180px;
-    border: 4px #3882F6 solid;
+    border: 3px solid #3882F6;
     border-radius: 8px;
 }
 
 /* Testimonial section */
 .testimonial {
-    background-color: #E5E7EB;
-    color: #1F2937;
-    font-size: 24px;
     padding: 64px 20%;
     display: flex;
     flex-direction: column;
+    font-size: 24px;
+    background-color: #E5E7EB;
+    color: #1F2937;
 }
 .testimonial > p {
     font-family: 'Times New Roman', Times, serif;
-    line-height: 1.4;
     font-style: italic;
+    line-height: 1.6;
 }
 .testimonial > span {
-    font-weight: 700;
     padding-left: 128px;
+    font-weight: 700;
 }
 
 /* Signup section */
 .signup-container {
+    padding: 64px 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 64px 5%;
 }
 .signup-modal {
-    background-color: #3882F6;
-    border-radius: 8px;
     min-width: 80%;
-    min-height: 96px;
+    min-height: 82px;
     padding: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 12%;
+    border-radius: 8px;
+    background-color: #3882F6;
 }
 .signup-modal h3 {
     margin: 5px 0;
-    padding: 0;
 }
 .signup-modal > button {
+    min-width: 128px;
+    min-height: 32px;
     border-radius: 8px;
     border: 2px solid white;
     background-color: #3882F6;
-    color: white;
-    min-width: 128px;
-    min-height: 32px;
+    color: white; 
+    cursor: pointer;
 }
+
+/* Footer section */
 footer {
     padding: 16px;
-    background-color: #1F2937;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
 }
